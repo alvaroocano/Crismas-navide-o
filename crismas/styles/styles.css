@@ -1,0 +1,387 @@
+html{
+  overflow: hidden;
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+#fondo{
+  position: relative;
+  bottom: 250px;
+  width: 100%;
+  height: auto;
+  z-index: -100;
+}
+#luna{
+  position: relative;
+  bottom: 1200px;
+  left: 800px;
+  width: 15%;
+  height: auto;
+  z-index: -50;
+}
+#arbol{
+  position: relative;
+  bottom: 650px;
+  right: 50px;
+  width: 20%;
+  height: auto;
+  z-index: -50;
+  }
+#papa{
+  position: relative;
+  width: 150px;
+  height: 150px;
+  z-index: 5;
+}
+@keyframes animacion_papa{
+  0%{
+  position: relative;
+  bottom: 1200px;
+  left: 380px;
+  opacity: 1;
+  }
+  50%{
+  position: relative;
+  bottom: 1180px;
+  left: 380px;
+  opacity: 1;
+   }
+  100%{
+  position: relative;
+  bottom: 1200px;
+  left: 380px;
+  opacity: 1;
+   }
+  }
+  #papa{
+  animation-name: animacion_papa;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola1{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 850px;
+  left: 200px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  100%{
+  background-color: yellow;
+   }
+  }
+  #bola1{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola2{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 820px;
+  left: 320px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  100%{
+  background-color: yellow;
+   }
+  }
+  #bola2{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola3{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 930px;
+  left: 250px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  100%{
+  background-color: yellow;
+   }
+  }
+  #bola3{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola4{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 790px;
+  left: 375px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  100%{
+  background-color: yellow;
+   }
+  }
+  #bola4{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola5{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 800px;
+  left: 200px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  100%{
+  background-color: yellow;
+   }
+  }
+  #bola5{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola6{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 850px;
+  left: 300px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  100%{
+  background-color: yellow;
+   }
+  }
+  #bola6{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola7{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 970px;
+  left: 270px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  100%{
+  background-color: yellow;
+   }
+  }
+  #bola7{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola8{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 1050px;
+  left: 280px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  100%{
+  background-color: yellow;
+   }
+  }
+  #bola8{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#bola9{
+  width: 15px;
+  height: 15px;
+  border: 1px solid black;
+  border-radius: 100px;
+  position: relative;
+  bottom: 950px;
+  left: 230px;
+  z-index: 10;
+}
+@keyframes animacion_bolas{
+  0%{
+  background-color: red;
+  }
+  50%{
+  background-color: blue;
+   }
+  75%{
+  background-color: yellow;
+   }
+  100%{
+  background-color: red;
+   }
+  }
+  #bola9{
+  animation-name: animacion_bolas;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#pelea {
+  position: relative;
+  bottom: 680px;
+  left: 150px;
+  width: 25%;
+  height: auto;
+  z-index: -50;
+  }
+#nieve{
+  width: 5%;
+  height: auto;
+  z-index: 10;
+}
+@keyframes animacion_bolasnieve{
+  0%{
+  position: relative;
+  bottom: 790px;
+  left: -45px;
+  }
+  100%{
+  position: relative;
+  bottom: 790px;
+  left: 40px;
+   }
+  }
+  #nieve{
+  animation-name: animacion_bolasnieve;
+  animation-duration: 2s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#parr1{
+   font-family: 'Dancing Script', cursive;
+   font-size: 40px;
+   position: relative;
+   left: 50px;
+   top: 25px;
+   color: white;
+}
+@keyframes animacion_parrafo1{
+  0%{
+  opacity: 1;
+  }
+  100%{
+  opacity: 0;
+   }
+  }
+  #parr1{
+  animation-name: animacion_parrafo1;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+#parr2{
+   font-family: 'Dancing Script', cursive;
+   font-size: 40px;
+   position: relative;
+   left: 50px;
+   top: 0px;
+   color: white;
+   z-index: 100px;
+   padding: -3px;
+}
+@keyframes animacion_parrafo2{
+  0%{
+  opacity: 0;
+  }
+  100%{
+  opacity: 1;
+   }
+  }
+  #parr2{
+  animation-name: animacion_parrafo2;
+  animation-duration: 10s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
